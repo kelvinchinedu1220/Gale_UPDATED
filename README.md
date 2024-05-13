@@ -8,7 +8,7 @@ The Poco C65 is a budget range smartphone from Poco, Released 2023, November 15
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-OS	    | Android 13, MIUI 14.x.xx.x
+OS	    | Android 14, hyperOS 1.0.1.x.xx.x
 CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
 Chipset | MediaTek Helio G85 (12nm)
 GPU     | Mali-G52 MC2
