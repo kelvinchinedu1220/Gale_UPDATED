@@ -63,7 +63,16 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_BUGGED_AOSP_ARB_WORKAROUND="1616300800"; # Sun 21 Mar 04:26:40 GMT 2021
         export FOX_R12=1
 	
-       # Quick Backup list
+	# Hide notc
+	    export OF_HIDE_NOTCH=1
+
+    # Maintainer avatar
+		export OF_MAINTAINER_AVATAR="/home/nino/avatar.png"
+
+	 # Lock screen 
+OF_USE_LOCKSCREEN_BUTTON=1
+	  
+	   # Quick Backup list
         export OF_QUICK_BACKUP_LIST="/boot;/data;/super;" 
 	
 	export OF_USE_GREEN_LED=0
