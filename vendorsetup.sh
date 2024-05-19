@@ -64,12 +64,13 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_R12=1
 	
        # Quick Backup list
-        export OF_QUICK_BACKUP_LIST="/boot;/data;/super;"
-         
-	# flashlight 
+        export OF_QUICK_BACKUP_LIST="/boot;/data;/super;" 
 	export OF_USE_GREEN_LED=0
 	export OF_FLASHLIGHT_ENABLE=0
-	export OF_FL_PATH1="/sys/devices/platform/flashlights_ocp8132/torch_brightness"
+	export OF_FL_PATH="/sys/devices/platform/flashlights_ocp8132/torch_brightness"
+
+	# Flashlight
+		export OF_FL_PATH1="/system/flashlight"
  
         #  R11.1 Settings
         export OF_MAINTAINER="Kelvin"
