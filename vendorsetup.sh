@@ -75,12 +75,14 @@ OF_USE_LOCKSCREEN_BUTTON=1
 	   # Quick Backup list
         export OF_QUICK_BACKUP_LIST="/boot;/data;/super;" 
 	
-	export OF_USE_GREEN_LED=0
-	export OF_FLASHLIGHT_ENABLE=0
+	export OF_USE_GREEN_LED=1
+	export OF_FLASHLIGHT_ENABLE=1
 	export OF_FL_PATH="/sys/devices/platform/flashlights_ocp8132/torch_brightness"
 
 	# Flashlight
-		export OF_FL_PATH1="/system/flashlight"
+		export OF_FL_PATH1="home/recovery/root/system/flashlight/brightness/sys/devices/platform/flashlights_ocp8132/torch_brightness"
+        export Of_FL_PATH2="$(DEVICE_PATH)/recovery/root/system/flashlight/brightness/sys/devices/platform/flashlights_ocp8132/torch_brightness"
+
  
         #  R11.1 Settings
         export OF_MAINTAINER="Kelvin"
