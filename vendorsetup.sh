@@ -40,6 +40,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    	export TW_DEFAULT_LANGUAGE="en"
 	export LC_ALL="C"
  	export ALLOW_MISSING_DEPENDENCIES=true
+export OF_USE_SYSTEM_FINGERPRINT='1'	 
 	export TARGET_DEVICE_ALT="gale"
 	export OF_TARGET_DEVICES="gale"
 	export OF_VIRTUAL_AB_DEVICE=1
