@@ -91,12 +91,6 @@ OF_USE_LOCKSCREEN_BUTTON=1
 # Use magisk 27.0 for the magisk addon
 	export FOX_USE_SPECIFIC_MAGISK_ZIP=$(DEVICE_PATH)/addon/Magisk_27.zip
 
-  #  R11.1 Settings
-        export OF_MAINTAINER="Kelvin"
-        export FOX_BUILD_TYPE="unofficial"
-        export FOX_VERSION="R12.1"
-	export BUILD_USERNAME="kelvinchinedu"
-
 	echo -e "\x1b[96mcezanne: 开始添加OrangeFox Vars...\x1b[m"
 	## 构建信息
 	# 设置显示在关于页面里的维护人员名称
