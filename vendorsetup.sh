@@ -86,10 +86,10 @@ OF_USE_LOCKSCREEN_BUTTON=1
         export Of_FL_PATH2="$(DEVICE_PATH)/recovery/root/system/flashlight/brightness/sys/devices/platform/flashlights_ocp8132/torch_brightness"
 
 # Use magisk 27.0 for the magisk addon
-	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/fox_12.1/device/xiaomi/gale/addon/Magisk_v27.zip
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/fox_12.1/device/xiaomi/gale/addons/Magisk_v27.zip
 
 # Use magisk 27.0 for the magisk addon
-	export FOX_USE_SPECIFIC_MAGISK_ZIP=$(DEVICE_PATH)/addon/Magisk_27.zip
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=$(DEVICE_PATH)/addons/Magisk_27.zip
 
 	echo -e "\x1b[96mcezanne: 开始添加OrangeFox Vars...\x1b[m"
 	## 构建信息
